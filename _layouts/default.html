@@ -8,16 +8,20 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      {% for btn in site.header_buttons %}
+        {% if btn.internal %}
+          <a href="{{ btn.url | relative_url }}" class="btn">{{ btn.name }}</a>
+        {% else %}
+          <a target="_blank" rel="noopener noreferrer" href="{{ btn.url }}" class="btn">{{ btn.name }}</a>
+        {% endif %}
+      {% endfor %}
     </section>
 
     <section class="main-content">

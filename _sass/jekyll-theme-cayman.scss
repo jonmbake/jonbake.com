@@ -343,3 +343,8 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+h1 > a {
+  color: inherit;
+  text-decoration: inherit;
+}
