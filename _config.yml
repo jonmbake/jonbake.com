@@ -2,9 +2,6 @@ title: Jon Bake
 description: YASB - Yet Another Software Blog
 google_analytics: 'UA-39814300-2'
 header_buttons:
-  - name: Home
-    url: '/'
-    internal: true
   - name: Github
     url: 'https://github.com/jonmbake'
     internal: false
