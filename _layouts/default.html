@@ -13,7 +13,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}<sup class="small">*Home</sup></a></h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% for btn in site.header_buttons %}
         {% if btn.internal %}
@@ -25,6 +25,7 @@
     </section>
 
     <section class="main-content">
+      <h1>{{ page.title }}</h1>
       {{ content }}
 
       <footer class="site-footer">
