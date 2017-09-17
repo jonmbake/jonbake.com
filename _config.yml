@@ -14,3 +14,7 @@ header_buttons:
   - name: Contact
     url: 'contact.html'
     internal: true
+post_tags:
+  security:
+    name: Web Security
+    color: '#b94a48'
