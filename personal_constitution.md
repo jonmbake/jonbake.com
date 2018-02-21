@@ -28,20 +28,20 @@ Life is too short to be anything but happy. If you are unhappy, have the courage
 necessary changes to be happy again. Bad things will happen. Accept what you must, change
 what you can. Keep things in perspective.
 
-### 3 ­- Always Be Open to New Experiences. ­Conquer Fear.
+### 3 - Always Be Open to New Experiences. ­Conquer Fear.
 
 Life is not about working nine to five then coming home to watch TV. My life is more than that. I
 will embrace every new experience­­ that life has to offer. I will take advantage when opportunity arises.
 
-### 4 ­- Live Debt Free/Be Non-­Materialistic.
+### 4 - Live Debt Free/Be Non-­Materialistic.
 
 Debt adds stress. Material possession will not make you happy. For happiness, see family and friends
 above.
 
-### 5 ­- Grow! ­Always be Learning something new.
+### 5 - Have a growth mindset. Always be Learning something new.
 
 Every day is an opportunity to learn and grow. I will do my best to take advantage of that
-opportunity.
+opportunity. Just about anything can be changed with hard work and the right mindset.
 
 ### 6 ­- Be Passionate.
 
