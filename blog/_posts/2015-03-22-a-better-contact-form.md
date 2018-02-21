@@ -7,7 +7,7 @@ tags:
 
 What the hell was I thinking? It is the question I ask myself just about everytime I look at code that I had written in the past. The longer it has been since I touched the code, the greater this feeling of bewilderment at how stupid I was. This is probably a good thing because it is an indicator of growth as a software developer.
 
-Recently, I re-explored code I had written for a [Bootsrap Contact Form](http://jonbake.com/blog/bootstrap-3-contact-form-with-captcha/) and without failure that same feeling of “what the hell was I thinking” creeped into my mind. This post is about the mistakes I made and what I did to correct them. (PS: I pushed the updates to Github here: [Bootstrap 3 Contact Form V1.1 changes](https://github.com/jonmbake/bootstrap3-contact-form/commit/f502b9ef0dcda710d4aca2738f75fc22f2e56699))
+Recently, I re-explored code I had written for a [Bootsrap Contact Form](/blog/2013/10/17/bootstrap-3-contact-form-with-captcha.html) and without failure that same feeling of “what the hell was I thinking” creeped into my mind. This post is about the mistakes I made and what I did to correct them. (PS: I pushed the updates to Github here: [Bootstrap 3 Contact Form V1.1 changes](https://github.com/jonmbake/bootstrap3-contact-form/commit/f502b9ef0dcda710d4aca2738f75fc22f2e56699))
 
 ## Email Configuration – Use Environment Variables!
 
@@ -25,7 +25,7 @@ A big part of developing software is weighing the pros and cons of a particular 
 
 Dynamic languages like Ruby and Javascript are great because they allow developers a great freedom to do pretty much whatever they want (including crazy things like [Monkey Patching](http://en.wikipedia.org/wiki/Monkey_patch)). Freedom is good, but when there are many ways to do something often times programmers will not make the best choices.
 
-One of the greatest no-nos in Javscript is to pollute the global namespace with global variables. The previous version of the contact form had some contact form utilities defined in the global namespace like (see [var contactForm](https://github.com/jonmbake/bootstrap3-contact-form/blob/v1.0/assets/js/contact-form.js).
+One of the greatest no-nos in Javscript is to pollute the global namespace with global variables. The previous version of the contact form had some contact form utilities defined in the global namespace like (see [var contactForm](https://github.com/jonmbake/bootstrap3-contact-form/blob/v1.0/assets/js/contact-form.js)).
 
 A better solution is to use a self-executing function which creates a new namespace (outside of global) like so:
 
@@ -40,4 +40,5 @@ A better solution is to use a self-executing function which creates a new namesp
 Code is never perfect. It can always be improved on. I think it is always a good idea to go back and refactor to improve upon code that you written in the past. Always strive to make your code the best it can be; I know I will.
 
 **Check out the new version demo:** [Bootstrap 3 Contact Form Demo](http://jonmbake.github.io/bootstrap3-contact-form/)
+
 **Source:** [Bootstrap 3 Contact Form Source](https://github.com/jonmbake/bootstrap3-contact-form)
