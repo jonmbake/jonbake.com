@@ -1,6 +1,3 @@
 {% if post.layout == 'medium' %}
 <span class="post-tag" style="background-color: #02b875">Medium</span>
 {% endif %}
-{% for tag in post.tags %}
-<span class="post-tag" style="background-color: {{ site.post_tags[tag].color }}">{{ site.post_tags[tag].name }}</span>
-{% endfor %}

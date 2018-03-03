@@ -14,22 +14,3 @@ header_buttons:
   - name: Contact
     url: 'contact.html'
     internal: true
-post_tags:
-  java:
-    name: Java
-    color: '#65869E'
-  javascript:
-    name: JavaScript
-    color: '#e5bb31'
-  security:
-    name: Web Security
-    color: '#b94a48'
-  software_dev:
-    name: Software Development
-    color: '#EE6F2E'
-  walkthroughs:
-    name: Walk Throughs
-    color: '#28a745'
-  sql:
-    name: SQL
-    color: '#0085B0'
