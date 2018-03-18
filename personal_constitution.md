@@ -13,14 +13,13 @@ I will be a man of character.  Above everything, I will always tell the truth an
 
 > "The unexamined life is not worth living" - Socrates
 
-I believe in living a conscious life­­ this constitution will serve as a blueprint for doing so.
+I believe in living a conscious life and this constitution will serve as a blueprint for doing so.
 
 ## Principles
 
-### 1 - Family and Friends Above All Else.
+### 1 - Love well.
 
-Simply put: without family and friends I would nothing. Family and friends are everything. Treat
-them that way.
+Family, friends, acquaintances, and even strangers. We are all sharing a common experience. Love is what makes the experience worth living. Love is compounding. Always be asking yourself, "Did I love well?"
 
 ### 2 - Enjoy the Ride.
 
@@ -28,12 +27,12 @@ Life is too short to be anything but happy. If you are unhappy, have the courage
 necessary changes to be happy again. Bad things will happen. Accept what you must, change
 what you can. Keep things in perspective.
 
-### 3 - Always Be Open to New Experiences. ­Conquer Fear.
+### 3 - Always Be Open to New Experiences. Conquer Fear.
 
 Life is not about working nine to five then coming home to watch TV. My life is more than that. I
-will embrace every new experience­­ that life has to offer. I will take advantage when opportunity arises.
+will embrace every new experience that life has to offer. I will take advantage when opportunity arises.
 
-### 4 - Live Debt Free/Be Non-­Materialistic.
+### 4 - Live Debt Free/Be Non-Materialistic.
 
 Debt adds stress. Material possession will not make you happy. For happiness, see family and friends
 above.
@@ -49,12 +48,12 @@ No man has ever been successful without finding his passion and doing everything
 to live that passion. Whatever you choose to do, make sure it is something that you can be
 passionate about.
 
-### 7 - Help Others.­ Give of Yourself.
+### 7 - Help Others. Give of Yourself.
 
 I am blessed. I have a duty to pass on my blessings to others. The only thing that stays behind
 when you leave this earth is the good that you have done.
 
-### 8 - Live Healthy.­ Eat Well. Be Active and Clean.
+### 8 - Live Healthy. Eat Well. Be Active and Clean.
 
 I have one body, one mind, one life. It is precious and I will do everything in my power to protect
 it.
@@ -63,12 +62,16 @@ it.
 
 Be thankful you are blessed!
 
-### 10 -­ Set Goals and Follow through with them.
+### 10 - Set Goals and Follow through with them.
 
 The only sure way to growth is to set goals.
 
 ### 11 - Live In The Moment.
 
-The future and past are abstractions. All there is is right now. Make sure you are taken full
+The future and past are abstractions. All there is is right now. Make sure you are taking full
 advantage of the present. Use meditation and mindfulness practices to be more in the moment.
 Enjoy Life!
+
+### 12 - Work Hard - Sweat - Finish Each Day Exhausted
+
+Everyday you should give 100% of yourself physically and mentally.

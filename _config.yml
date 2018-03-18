@@ -8,9 +8,6 @@ header_buttons:
   - name: Personal Constitution
     url: personal_constitution
     internal: true
-  - name: Resume
-    url: '/assets/pdfs/resume.pdf'
-    internal: true
   - name: Contact
     url: 'contact.html'
     internal: true
