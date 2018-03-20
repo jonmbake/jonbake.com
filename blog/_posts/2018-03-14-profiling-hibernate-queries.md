@@ -5,7 +5,7 @@ tags:
   - java
 ---
 
-[The rule of software entropy](https://en.wikipedia.org/wiki/Software_entropy) says that software tends to evolve to become more complex. Complexity, often times, has the side effect of performance degradation-- more memory is used, execution time slows, and more slow-running SQL queries run. This all happens very gradually over time to the point where software developers don't really notice it until performance degrades to the point of almost unusability, e.g. a request that used to take 100ms now takes 1000ms.
+[The rule of software entropy](https://en.wikipedia.org/wiki/Software_entropy) says that software tends to evolve to become more complex. Complexity, often times, has the side effect of performance degradation-- more memory is used, execution time slows, and more slow-running SQL queries run. This all happens very gradually over time to the point where software developers don't really notice until performance degrades to the point of almost unusability (e.g. a request that used to take 100ms now takes 1000ms).
 
 Software entropy (and hence, performance degradation) must be constantly fought against. Actions must be taken to ensure the application remains within an acceptable performance threshold. A great way to do this is to have a visible profiling on the page while developing.
 
