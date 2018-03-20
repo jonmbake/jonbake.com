@@ -17,9 +17,9 @@ I believe in living a conscious life and this constitution will serve as a bluep
 
 ## Principles
 
-### 1 - Love well.
+### 1 - Nurture and Create New Relationships
 
-Family, friends, acquaintances, and even strangers. We are all sharing a common experience. Love is what makes the experience worth living. Love is compounding. Always be asking yourself, "Did I love well?"
+All the magic happens in life from the relationships you establish. Prioritize relationships with family and good friends. Seek out new friendships.
 
 ### 2 - Enjoy the Ride.
 
@@ -34,8 +34,7 @@ will embrace every new experience that life has to offer. I will take advantage 
 
 ### 4 - Live Debt Free/Be Non-Materialistic.
 
-Debt adds stress. Material possession will not make you happy. For happiness, see family and friends
-above.
+Debt adds stress. Material possession will not make you happy. Relationships, purpose and
 
 ### 5 - Have a growth mindset. Always be Learning something new.
 
@@ -75,3 +74,7 @@ Enjoy Life!
 ### 12 - Work Hard - Sweat - Finish Each Day Exhausted
 
 Everyday you should give 100% of yourself physically and mentally.
+
+### 13 - Love well.
+
+Family, friends, acquaintances, and even strangers. We are all sharing a common experience. Love is what makes the experience worth living. Love is compounding. Always be asking yourself, "Did I love well?"
