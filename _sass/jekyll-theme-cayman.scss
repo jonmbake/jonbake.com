@@ -373,10 +373,16 @@ h1 > a {
   border-radius: 10px;
 }
 
-.post-title {
-  font-style: italic;
+.posts-header {
+  border-bottom: 1px solid $section-headings-color;
 }
 
-.posts li {
-  margin-bottom: 5px;
+.post {
+  margin-bottom: 2rem;
+  a {
+    color: inherit;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
 }

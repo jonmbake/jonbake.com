@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<h1>Posts</h1>
-<select style="width: 100%" class="topic-filter" name="topic" multiple="multiple">
-</select>
+<h1 class="posts-header">Posts</h1>
 
-<ul class="posts">
+<div class="posts">
   {% for post in site.posts %}
-    {% if post.layout == 'medium' %}
-        <li class="medium {{ post.tags | join }}"><a href="{{ post.medium_url }}">{{ post.date | date_to_string }} - <span class="post-title">{{ post.title }}</span>{% include post-tags.html %}</a></li>
-    {% else %}
-        <li class="{{ post.tags | join }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date_to_string }} - <span class="post-title">{{ post.title }}</span>{% include post-tags.html %}</a></li>
-    {% endif %}
+    <div class="post {% if post.layout == 'medium' %}medium{% endif %} {{ post.tags | join }}">
+        <h2><a href="{% if post.layout == 'medium' %}{{ post.medium_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">{{ post.title }}</a></h2>
+        <div>
+          <time>{{ post.date | date_to_string | upcase }} </time>{% include post-tags.html %}
+        </div>
+      </div>
   {% endfor %}
-</ul>
+</div>
