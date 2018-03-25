@@ -3,6 +3,7 @@ $(document).ready(function() {
     {className: 'java', text: 'Java'},
     {className: 'javascript', text: 'JavaScript'},
     {className: 'medium', text: 'Medium'},
+    {className: 'personal_dev', text: 'Personal Development'},
     {className: 'security', text: 'Web Security'},
     {className: 'software_dev', text: 'Software Development'},
     {className: 'sql', text: 'SQL'},
