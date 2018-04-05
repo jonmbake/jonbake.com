@@ -1,5 +1,6 @@
 $(document).ready(function() {
   const TOPICS = [
+    {className: 'business', text: 'Business'},
     {className: 'java', text: 'Java'},
     {className: 'javascript', text: 'JavaScript'},
     {className: 'medium', text: 'Medium'},
