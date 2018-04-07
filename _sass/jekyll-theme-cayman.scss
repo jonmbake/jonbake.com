@@ -386,3 +386,20 @@ h1 > a {
     margin-bottom: 0;
   }
 }
+
+.filter-header {
+  font-weight: 1.17em;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #6c757d;
+  color: #6c757d;
+}
+
+button.filter-btn {
+  font-size: 85%;
+  margin-bottom: .5rem;
+}
+
+button.filter-btn-active {
+  background-color: #0078e7;
+  color: #fff;
+}
