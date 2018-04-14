@@ -11,3 +11,10 @@ header_buttons:
   - name: Contact
     url: 'contact.html'
     internal: true
+defaults:
+  -
+    scope:
+      path: "blog"      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts

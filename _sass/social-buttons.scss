@@ -1,0 +1,26 @@
+.social-share {
+  font-size: .9rem;
+  a {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 0 6px 3px;
+    text-align: center;
+    text-decoration: none;
+
+    &.fb-share {
+      background: #3B5997
+    }
+
+    &.twitter-share {
+      background: #00aced;
+    }
+
+    &.email-share {
+      background: #2c4762;
+    }
+  }
+}

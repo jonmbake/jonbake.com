@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "6.5 Tips for Selling a Website"
+title: "6 Tips for Selling a Website"
 tags:
   - business
 ---

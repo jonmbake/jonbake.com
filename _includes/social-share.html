@@ -1,0 +1,8 @@
+{% if page.is_post %}
+<div class="social-share">
+  Share:
+  <a class="social-btn twitter-share" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+  <a class="social-btn fb-share" href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+  <a class="social-btn email-share" href="mailto:?subject=Blog post to check out&amp;body={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share via Email"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+</div>
+{% endif %}
