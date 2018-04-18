@@ -29,12 +29,12 @@ what you can. Keep things in perspective.
 
 ### 3 - Always Be Open to New Experiences. Conquer Fear.
 
-Life is not about working nine to five then coming home to watch TV. My life is more than that. I
+Life is full of amazing experiences. But these experiences are only available to those who have the courage to act. I
 will embrace every new experience that life has to offer. I will take advantage when opportunity arises.
 
 ### 4 - Live Debt Free/Be Non-Materialistic.
 
-Debt adds stress. Material possession will not make you happy. Relationships, purpose and
+Debt adds stress. Material possession will not make you happy. For happiness, see Principle #1.
 
 ### 5 - Have a growth mindset. Always be Learning something new.
 
