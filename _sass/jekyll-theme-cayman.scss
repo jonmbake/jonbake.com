@@ -399,6 +399,13 @@ button.filter-btn {
   margin-bottom: .5rem;
 }
 
+@include small {
+  button.filter-btn {
+    font-size: 60%;
+    padding: .5em;
+  }
+}
+
 button.filter-btn-active {
   background-color: #0078e7;
   color: #fff;
