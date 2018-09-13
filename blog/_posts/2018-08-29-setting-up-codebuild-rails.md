@@ -17,13 +17,13 @@ You want to ensure that the build environment matches the environment where the 
 
 But most likely these will not match your environment completely. For example, you might be using Ruby 2.4.0. We can customize one of these images-- changing the ruby version to match our environment and installing [PostgreSQL](https://www.postgresql.org/)-- by cloning the AWS Github repo where the image definitions, i.e. Dockerfiles, are stored:
 
-```
+```shell
 git clone https://github.com/aws/aws-codebuild-docker-images.git
 ```
 
 Then updating one of the Ruby image definitions to match the build environment. I choose to update `ubuntu/ruby/2.5.1/Dockerfile`, changing the _Ruby_ version to _2.4.0_ and installing _Postgres_:
 
-```
+```shell
 ENV RUBY_MAJOR="2.4" \
     RUBY_VERSION="2.4.0" \
     RUBY_DOWNLOAD_SHA256="152fd0bd15a90b4a18213448f485d4b53e9f7662e1508190aa5b702446b29e3d" \
@@ -40,7 +40,7 @@ RUN set -ex \
 
 You can then build your modified AWS CodeBuild Docker Image locally by running:
 
-```
+```shell
 # cd into dir if not already there
 cd aws-codebuild-docker-images/ubuntu/ruby/2.5.1
 docker build -t my-codebuild-image .
@@ -52,7 +52,7 @@ docker build -t my-codebuild-image .
 
 [AWS ECR](https://aws.amazon.com/ecr/) is the place to store your custom built image on AWS. Assuming the [AWS CLI](https://aws.amazon.com) is installed you can run the following commands:
 
-```
+```shell
 # create ECR repo, which will return repositoryUri
 aws ecr create-repository --repository-name codebuild-images
 # tag docker image with the repository URI
@@ -76,7 +76,7 @@ After uploading the custom image to _ECR_, when creating a new _CodeBuild_ proje
 
 The _buildspec.yml_ file describes how _CodeBuild_ should perform the build. For a Ruby on Rails app using a _Postgres_ data source and _RSpec_, it should look something like:
 
-```
+```yaml
 version: 0.1
 
 phases:
@@ -111,7 +111,7 @@ After adding _buildspec.yml_ and saving the _CodeDeploy_ project settings with t
 
 If you are debugging your _buildspec.yml_ or test setup, it can be faster and easier to run the image locally, mounting the source code volume (instead of constantly pushing an update to the source repository and running a build within _CodeBuild_). To do this, you can use commands like:
 
-```
+```shell
 # run the image locally, making the source repo available within the running image
 docker run -v /Users/jonbake/Code/git/my-code-repo:/home/my-code-repo -it --entrypoint sh my-codebuild-image -c bash
 # within image cd into mounted directory and run build spec steps to verify they succeed
