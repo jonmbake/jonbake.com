@@ -185,6 +185,10 @@ sup.small {
     color: $section-headings-color;
   }
 
+  h3 {
+    border-bottom: 1px solid $header-bg-light;
+  }
+
   p {
     margin-bottom: 1em;
   }
