@@ -1,0 +1,23 @@
+{
+  "notes": "",
+  "goals": [
+    {
+      "activity": "Run",
+      "goal": "3",
+      "completed": "2",
+      "units": "sessions"
+    },
+    {
+      "activity": "Strength Train",
+      "goal": "3",
+      "completed": "2",
+      "units": "sessions"
+    },
+    {
+      "activity": "Yoga",
+      "goal": "3",
+      "completed": "1",
+      "units": "classes"
+    },
+  ]
+}
