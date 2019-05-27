@@ -21,51 +21,51 @@ I believe in living a conscious life and this constitution will serve as a bluep
 
 All the magic happens in life from the relationships you establish. Prioritize relationships with family and good friends. Seek out new friendships.
 
-### 2 - Enjoy the Ride.
+### 2 - Enjoy the Ride
 
 Life is too short to be anything but happy. If you are unhappy, have the courage to make the
 necessary changes to be happy again. Bad things will happen. Accept what you must, change
 what you can. Keep things in perspective.
 
-### 3 - Always Be Open to New Experiences. Conquer Fear.
+### 3 - Always Be Open to New Experiences - Conquer Fear
 
 Life is full of amazing experiences. But these experiences are only available to those who have the courage to act. I
 will embrace every new experience that life has to offer. I will take advantage when opportunity arises.
 
-### 4 - Live Debt Free/Be Non-Materialistic.
+### 4 - Live Debt Free/Be Non-Materialistic
 
 Debt adds stress. Material possession will not make you happy. For happiness, see Principle #1.
 
-### 5 - Have a growth mindset. Always be Learning something new.
+### 5 - Have a Growth Mindset - Always be Learning Something New
 
 Every day is an opportunity to learn and grow. I will do my best to take advantage of that
 opportunity. Just about anything can be changed with hard work and the right mindset.
 
-### 6 - Be Passionate.
+### 6 - Be Passionate
 
 No man has ever been successful without finding his passion and doing everything in his power
 to live that passion. Whatever you choose to do, make sure it is something that you can be
 passionate about.
 
-### 7 - Help Others. Give of Yourself.
+### 7 - Help Others - Give of Yourself
 
 I am blessed. I have a duty to pass on my blessings to others. The only thing that stays behind
 when you leave this earth is the good that you have done.
 
-### 8 - Live Healthy. Eat Well. Be Active and Clean.
+### 8 - Live Healthy, Eat Well, Be Active and Clean
 
 I have one body, one mind, one life. It is precious and I will do everything in my power to protect
 it.
 
-### 9 - Be Grateful.
+### 9 - Be Grateful
 
 Be thankful you are blessed!
 
-### 10 - Set Goals and Follow through with them.
+### 10 - Establish Habits and Systems to Ensure Success
 
-The only sure way to growth is to set goals.
+95% percent of everything you do in a given day is the same thing you did the day before. Make these sure these reoccurring tasks align with the person you want to become. Goals are great for short term successes. Habits and Systems are better since they ensure life-long success.
 
-### 11 - Live In The Moment.
+### 11 - Live in the Moment
 
 The future and past are abstractions. All there is is right now. Make sure you are taking full
 advantage of the present. Use meditation and mindfulness practices to be more in the moment.
@@ -75,6 +75,6 @@ Enjoy Life!
 
 Everyday you should give 100% of yourself physically and mentally.
 
-### 13 - Love well.
+### 13 - Love Well
 
 Family, friends, acquaintances, and even strangers. We are all sharing a common experience. Love is what makes the experience worth living. Love is compounding. Always be asking yourself, "Did I love well?"
