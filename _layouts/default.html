@@ -32,7 +32,10 @@
         <hr/>
       {% endif %}
       {{ content }}
-      {% include social-share.html %}
+      {% if page.is_post %}
+        {% include social-share.html %}
+        <p>See a typo? <a target="_blank" href="{{ site.github.repository_name | append: '/edit/master/' }}{{ page.path }}">Submit a <i class="fa fa-github" aria-hidden="true"></i>  Pull Request</a>.</p>
+      {% endif %}
       <footer class="site-footer">
         <p>
           The content of this site is licensed under the <a href="https://creativecommons.org/licenses/by/3.0/">
