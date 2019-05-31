@@ -26,9 +26,11 @@
     </section>
 
     <section class="main-content">
-      <h1>{{ page.title }}</h1>
-      {% include social-share.html %}
-      <hr/>
+      {% if page.is_post %}
+        <h1>{{ page.title }}</h1>
+        {% include social-share.html %}
+        <hr/>
+      {% endif %}
       {{ content }}
       {% include social-share.html %}
       <footer class="site-footer">
