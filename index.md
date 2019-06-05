@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: posts-list
+title: Posts
 ---
-<h1 class="posts-header">Posts</h1>
-
 <div class="pure-g">
   <div class="posts pure-u-4-5">
     {% for post in site.posts %}

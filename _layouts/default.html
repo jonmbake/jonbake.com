@@ -1,33 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
+  {% include head.html %}
   <body>
-    <section class="page-header">
-      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}<sup class="small">*Home</sup></a></h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% for btn in site.header_buttons %}
-        {% if btn.internal %}
-          <a href="{{ btn.url | relative_url }}" class="btn">{{ btn.name }}</a>
-        {% else %}
-          <a target="_blank" rel="noopener noreferrer" href="{{ btn.url }}" class="btn">{{ btn.name }}</a>
-        {% endif %}
-      {% endfor %}
-    </section>
-
+    {% include header.html %}
     <section class="main-content">
+      <h1 class="{% unless page.is_post %}posts-header{% endunless %}">{{ page.title }}</h1>
       {% if page.is_post %}
-        <h1>{{ page.title }}</h1>
         {% include social-share.html %}
         <hr/>
       {% endif %}
@@ -36,28 +14,7 @@
         {% include social-share.html %}
         <p>See a typo? <a target="_blank" href="{{ site.github.repository_url | append: '/edit/master/' }}{{ page.path }}">Submit a <i class="fa fa-github" aria-hidden="true"></i>  Pull Request</a>.</p>
       {% endif %}
-      <footer class="site-footer">
-        <p>
-          The content of this site is licensed under the <a href="https://creativecommons.org/licenses/by/3.0/">
-          Creative Commons Attribution 3.0 Unported License</a>.
-        </p>
-      </footer>
+      {% include footer.html %}
     </section>
-
-    {% if page.path == 'index.md' %}
-    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
-    {% endif %}
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>

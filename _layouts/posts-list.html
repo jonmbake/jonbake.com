@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <section class="main-content">
+      <h1 class="posts-header">{{ page.title }}</h1>
+      {{ content }}
+      {% include footer.html %}
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+  </body>
+</html>
