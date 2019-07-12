@@ -13,6 +13,8 @@ header_buttons:
   - name: Contact
     url: 'contact.html'
     internal: true
+sass:
+    style: compressed
 defaults:
   - scope:
       path: "blog"      # empty string for all files
