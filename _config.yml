@@ -4,8 +4,8 @@ header_buttons:
   - name: Github
     url: 'https://github.com/jonmbake'
     internal: false
-  - name: Personal Constitution
-    url: personal_constitution
+  - name: Personal Development
+    url: personal_development
     internal: true
   - name: Notes
     url: notes
