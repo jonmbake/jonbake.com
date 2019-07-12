@@ -108,6 +108,7 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  font-weight: bold;
 
   @include large {
     font-size: 3.25rem;
@@ -353,7 +354,7 @@ sup.small {
   color: $blockquote-text-color;
 }
 
-h1 > a {
+h1,.project-name > a {
   color: inherit;
   text-decoration: inherit;
 }
