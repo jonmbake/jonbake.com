@@ -1,6 +1,6 @@
 (function () {
     const loaded = new Date().getTime();
-    var contactFormUtils = {
+    const contactFormUtils = {
         isValidEmail: function (email) {
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             return regex.test(email);
@@ -22,11 +22,12 @@
 
     $(document).ready(function() {
         $("#feedbackSubmit").click(function() {
-            var $btn = $(this);
+            const $btn = $(this);
             $btn.prop("disabled",true);
             contactFormUtils.clearErrors();
 
-            var $form = $("#feedbackForm"), hasErrors = false;
+            const $form = $("#feedbackForm")
+            let hasErrors = false;
             if (new Date().getTime() - loaded < 5000) {
               hasErrors = true;
             }
@@ -37,7 +38,7 @@
                     contactFormUtils.addError($(this));
                 }
             });
-            var $email = $('#email');
+            const $email = $('#email');
             if (!contactFormUtils.isValidEmail($email.val())) {
                 hasErrors = true;
                 contactFormUtils.addError($email);
@@ -47,22 +48,17 @@
                 return false;
             }
 
-            $.ajax({
-              url: 'https://godkqerucg.execute-api.us-east-1.amazonaws.com/Prod/feedback/',
-              dataType: 'json',
-              type: 'post',
-              contentType: 'application/json',
-              data: $form.serializeArray().reduce(function(p, c) {
-                p[c.name] = c.value;
-                return p;
-              }, {}),
-              success: function() {
-                $('#feedback-alert').removeClass('no-show alert-error').addClass('alert-success').text('Successfully submitted!');
-              },
-              error: function() {
+            const url = 'https://godkqerucg.execute-api.us-east-1.amazonaws.com/Prod/feedback/';
+            const data = JSON.stringify($form.serializeArray().reduce(function(p, c) {
+              p[c.name] = c.value;
+              return p;
+            }, {}));
+            const onSuccess = function() {
+              $('#feedback-alert').removeClass('no-show alert-error').addClass('alert-success').text('Successfully submitted!');
+            };
+            $.post(url, data, onSuccess, 'json').fail(function() {
                 $btn.prop("disabled", false);
                 $('#feedback-alert').removeClass('no-show alert-success').addClass('alert-error').text('Unexpected error while submitting feedback. Please try again later.');
-              }
             });
             return false;
         });
