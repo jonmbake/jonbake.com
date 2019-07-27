@@ -53,12 +53,19 @@
               p[c.name] = c.value;
               return p;
             }, {}));
-            const onSuccess = function() {
-              $('#feedback-alert').removeClass('no-show alert-error').addClass('alert-success').text('Successfully submitted!');
-            };
-            $.post(url, data, onSuccess, 'json').fail(function() {
+            $.ajax({
+              url: url,
+              type: 'post',
+              data: data,
+              contentType: 'application/json; charset=utf-8',
+              dataType: 'json',
+              success: function() {
+                $('#feedback-alert').removeClass('no-show alert-error').addClass('alert-success').text('Successfully submitted!');
+              },
+              error: function() {
                 $btn.prop("disabled", false);
                 $('#feedback-alert').removeClass('no-show alert-success').addClass('alert-error').text('Unexpected error while submitting feedback. Please try again later.');
+              }
             });
             return false;
         });
