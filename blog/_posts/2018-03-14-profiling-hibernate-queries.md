@@ -49,4 +49,4 @@ And then update your _persistence.xml_ to use the custom _Connection Provider_.
 <property name="hibernate.connection.provider_class" value="com.jonbake.hibernate.ProfilingConnectionProvider" />
 ```
 
-That's it! Now _Hibernate_ queries will be visible within within the profiler.
+That's it! Now _Hibernate_ queries will be visible within the profiler.
