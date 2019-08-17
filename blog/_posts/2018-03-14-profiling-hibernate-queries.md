@@ -13,9 +13,9 @@ One of the best options for an "always visible on the page" profiler tool is [Mi
 
 ![mini profiler](/assets/images/blog/2018/03/14/miniprofiler.png)
 
-<small style="font-style: italic">Example courtesy of https://miniprofiler.com/</small>
+<small style="font-style: italic">Example courtesy of <https://miniprofiler.com/></small>
 
-Unfortunately, _MiniProfiler_ is only available on .NET or Ruby (boo). Fortunately, there is a port for the JVM: https://github.com/tomdcc/miniprofiler-jvm (yeah! thanks, [tomdcc](https://github.com/tomdcc)). The MiniProfiler JVM docs are pretty straight-forward. It is super easy to profile all EJB and Servlet calls. One thing that is not straight-forward is profiling _Hibernate_ queries. The rest of this post describes how.
+Unfortunately, _MiniProfiler_ is only available on .NET or Ruby (boo). Fortunately, there is a port for the JVM: <https://github.com/tomdcc/miniprofiler-jvm> (yeah! thanks, [tomdcc](https://github.com/tomdcc)). The MiniProfiler JVM docs are pretty straight-forward. It is super easy to profile all EJB and Servlet calls. One thing that is not straight-forward is profiling _Hibernate_ queries. The rest of this post describes how.
 
 ## Profiling Hibernate Queries
 

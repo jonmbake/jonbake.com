@@ -13,6 +13,17 @@ header_buttons:
   - name: Contact
     url: 'contact.html'
     internal: true
+exclude:
+  - Rakefile
+jekyll_compose:
+  draft_default_front_matter:
+    remember:
+      - First sentence should grab reader's attention
+      - Keep things simple
+      - Use short sentences
+      - Get rid of extra words
+      - Use object before action sentence structure
+    tags:
 sass:
     style: compressed
 defaults:
