@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Creating a Genome-based Personal Health Plan
-published: false
 ---
 
-Earlier this year, I had my DNA genotyped by [23andMe](23andme.com). I had hopes of learning a bit about my ancestry and genetic health factors.
+Earlier this year, I had my DNA genotyped by [23andMe](23andme.com). My hope was to get a better understanding of my ancestory and how genetics play a role in my overall health. Upon receiving my results from _23andMe_, I was happy to discover they had a number of health reports. The health reports were great, but I knew they were just the tip of the iceburg; there was more valuable health information in my genome. Fortunatley, _23andMe_ offers a genome export and there are third party services out there that will run analysis on genomes to try and tease out more health information.
 
-[Dr. Rhonda Patrick's Comprehensive Genetics Report](https://www.foundmyfitness.com/genetics)
+I used a couple of these third party services and created a personal health plan based on the results. The two services I found most useful are:
 
-[Promethease](https://promethease.com)
+- [Dr. Rhonda Patrick's Comprehensive Genetics Report](https://www.foundmyfitness.com/genetics)
+
+- [Promethease](https://promethease.com)
+
+The following is my genome-based health plan.
 
 ## Avoid Dairy (Lactose)
 
