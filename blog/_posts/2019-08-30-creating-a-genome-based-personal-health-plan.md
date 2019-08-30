@@ -43,7 +43,7 @@ I put a a drop or two of [Optimal Vitamin D3 Liquid](https://amazon.com/Servings
 
 The _A allele_ is linked to lower levels of _BDNF_. Individuals with _A allele_ can increase _BDNF_ through physical activity according to [this study](https://www.ncbi.nlm.nih.gov/pubmed/23907543/).
 
-I personally try to get in two four-mile, hilly runs a week (hills make it more like (high-intensity interval training)[https://en.wikipedia.org/wiki/High-intensity_interval_training]). I do hot yoga three times a week and strength train two or three times per week.
+I personally try to get in two four-mile, hilly runs a week (hills make it more like [high-intensity interval training](https://en.wikipedia.org/wiki/High-intensity_interval_training)). I do hot yoga three times a week and strength train two or three times per week.
 
 ## Perform High-load, Low-Repetition Strength and HIIT Training
 
