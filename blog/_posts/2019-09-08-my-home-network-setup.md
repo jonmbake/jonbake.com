@@ -32,6 +32,6 @@ The problem with browser ad blockers is that they have to be installed within ea
 
 The [Phillips Hue Bridge](https://www2.meethue.com/en-us/p/hue-bridge/046677458478) controls the Hue lights in my apartment. Awhile back I was having problems with my sleep, which seemed to be [circadian rhythm](https://www.sleepfoundation.org/articles/what-circadian-rhythm) related. One of things that has been helpful is setting the light level to "Energize" in the morning and "Dimmed" at night.
 
-# 5. AmazonBasics Surge Protector Power Strip
+## 5. AmazonBasics Surge Protector Power Strip
 
 It's not highlighted in picture, but I also use the [AmazonBasics Surge Protector Power Strip](https://amazon.com/AmazonBasics-6-Outlet-Surge-Protector-Power/dp/B00TP1C1UC) as a cheap and effective way to provide surge protection to the whole setup.
