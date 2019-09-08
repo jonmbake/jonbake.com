@@ -7,9 +7,6 @@ header_buttons:
   - name: Personal Development
     url: personal_development
     internal: true
-  - name: Notes
-    url: notes
-    internal: true
   - name: Contact
     url: 'contact.html'
     internal: true

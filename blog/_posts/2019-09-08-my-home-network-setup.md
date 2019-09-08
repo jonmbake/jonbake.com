@@ -9,7 +9,7 @@ For all the nerdy networking folks out there, this is an overview of my home net
 
 ## 1. Fiber Network Box
 
-I am fortunate to live in an area where _Fiber Internet_ is offered. The posted speed from my [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) is 300mb/s. I mostly stream sports via [YouTube TV](https://tv.youtube.com/), watch informational videos on [Youtbue](https://youtube.com/), and perform work-related activities (e.g. `git clone`, `npm install`, etc.), which is not network intensive. The speed is plenty for my needs.
+I am fortunate to live in an area where _Fiber Internet_ is offered. The posted speed from my [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) is 300mb/s. I mostly stream sports via [YouTube TV](https://tv.youtube.com/), watch informational videos on [YouTube](https://youtube.com/), and perform work-related activities (e.g. `git clone`, `npm install`, etc.), which is not network intensive. The speed is plenty for my needs.
 
 The _Network Box_ is the junction point where the internet becomes consumable. The fiber cable is feed in and the box itself functions as a router. This was provided by my _ISP_.
 
@@ -25,7 +25,7 @@ The _Network Box_ is the junction point where the internet becomes consumable. T
 
 <small style="font-style: italic">Configuring Pi-hole as a network-wide ad blocker. Pi-hole's DNS server is running at 192.168.50.26</small>
 
-The problem with browser ad blockers is that they have to be installed within each browser instance and some browsers, e.g. Chrome on Andriod, do not support them. By using Pi-hole, you get the benefit of browser ad-blockers across the entire network without the need to install any additional software.
+The problem with browser ad blockers is that they have to be installed within each browser instance and some browsers, e.g. Chrome on Android, do not support them. By using Pi-hole, you get the benefit of browser ad-blockers across the entire network without the need to install any additional software.
 
 
 ## 4. Phillips Hue Bridge
