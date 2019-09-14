@@ -5,19 +5,19 @@ tags:
   - walkthroughs
 ---
 
-This site used to use [Google Analytics](http://analytics.google.com) to gather website traffic data. However, there was always a level of uncomfort with subjecting my website guests to tracking by Google. So, for a while, I removed analytics all together. But then I missed the valuable insights that analytics provided in learning what posts guests found useful. So, I decided to add analytics back, but in a way more geared towards user privacy. Matomo fit that bill.
+This site used to use [Google Analytics](http://analytics.google.com) to gather website traffic data. However, there was always a level of uncomfort with subjecting my website guests to tracking by Google. So, for a while, I removed analytics all together. But then I missed the valuable insights that analytics provided in learning what posts guests found useful. In the end I decided to add analytics back, but in a way more geared towards user privacy. Matomo fit that bill.
 
-[Matamo](https://matomo.org/) is a web analytics platform that allows self-hosting an instance; user data is not shared with a third-party like Google. I could have my cake (getting insights in which posts user found useful) and eat it too (not expose my website guests to third-party web tracking). Here is how you can easily do the same with your website. If you are familiar with _Ansible_ and _Matomo_, you can jump right to the code here: <https://github.com/jonmbake/matomo-ansible>.
+[Matamo](https://matomo.org/) is a web analytics platform that allows self-hosting an instance; user data is not shared with a third-party like Google. I could have my cake (getting insights in which posts website guests found useful) and eat it too (not expose my website guests to third-party web tracking). Here is how you can easily do the same with your website. If you are familiar with _Ansible_ and _Matomo_, you can jump right to the code here: <https://github.com/jonmbake/matomo-ansible>.
 
 ### Secondary Side Project Benefits
 
-When doing personal projects, I try to think of ways to get secondary benefits like learning a new language or framework. I have always wanted to learn [Ansible](https://docs.ansible.com/ansible/latest/)-- the framework that allows easy, reproducible server provisioning. Setting up a personal _Matomo_ instance would be a great opportunity.
+When doing personal projects, I try to think of ways to get secondary benefits like learning a new language or framework. I have always wanted to learn [Ansible](https://docs.ansible.com/ansible/latest/)-- the framework that allows easy, reproducible server provisioning &trade;. Setting up a personal _Matomo_ instance would be a great opportunity.
 
 ### Ansible Basics
 
 [Ansible](https://docs.ansible.com/ansible/latest/) allows one to provision (e.g. install Apache, MySQL, whatever) one or many servers easily and consistently by running a single command. A [playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html) [YAML](https://yaml.org/) file describes how to do the provisioning. The playbook contains _tasks_ and _roles_. _Tasks_ are commands to run while provision, e.g. `apt-get install apache2`. _Roles_ can be thought of as a way to group _tasks_ that should be run together.
 
-_Ansible_ includes a [number of modules](https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html). _Modules_ are "pre-packaged commands". So, for example, instead of defining the task:
+_Ansible_ includes a [number of modules](https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html). _Modules_ are pre-packaged commands. So, for example, instead of defining the task:
 
 ```
 - name: Extract foo.zip to /tmp
