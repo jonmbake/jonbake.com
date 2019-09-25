@@ -11,6 +11,7 @@
       {% endif %}
       {{ content }}
       {% if page.is_post %}
+        {% include comment.html %}
         {% include social-share.html %}
         <p>See a typo? <a target="_blank" href="{{ site.github.repository_url | append: '/edit/master/' }}{{ page.path }}">Submit a <i class="fa fa-github" aria-hidden="true"></i>  Pull Request</a>.</p>
       {% endif %}
