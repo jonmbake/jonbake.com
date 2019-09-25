@@ -1,16 +1,15 @@
-comments:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "master"
-  commitMessage: "New post comment"
-  filename: "comment-{@timestamp}"
-  format: "yaml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: md5
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: "timestamp-seconds"
+allowedFields: ['name', 'email', 'url', 'message']
+branch: "master"
+commitMessage: "New post comment"
+filename: "comment-{@timestamp}"
+format: "yaml"
+moderation: true
+path: "_data/comments/{options.slug}"
+requiredFields: ['name', 'email', 'message']
+transforms:
+  email: md5
+generatedFields:
+  date:
+    type: date
+    options:
+      format: "timestamp-seconds"
