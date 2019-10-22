@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Committing to Writing a Post a Week
+title: Committing to Write a Post a Week
 ---
 
 My writing habit is inconsistent. I will write everyday for a week and then not write another word for the next month (or more). It's inconsistent for a number of reasons. The biggest one is that writing is hard. Things that are hard are usually procrastinated on. Things that are hard are also usually worth doing. Procrastination must be overcome to accomplish hard tasks like consistent writing.
