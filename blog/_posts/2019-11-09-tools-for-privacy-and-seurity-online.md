@@ -11,7 +11,7 @@ Browser extensions allow third-parties to extend the behavior of browsers. There
 
 ### Ad blocker
 
-Ad blockers work by blocking network connections to known tracking sources. For example, many web sites use _Google Analytics_ to track user behavior. The data is sent to Google and can be aggregated to track user behavior across the web. Ad blockers will block the tracking code from loading. Some good choices are:
+Ad blockers work by blocking network connections to known tracking sources. For example, many websites use _Google Analytics_ to track user behavior. The data is sent to Google and can be aggregated to track user behavior across the web. Ad blockers will block the tracking code from loading. Some good choices are:
 
 - [uBlock Origin Chrome Extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm); [uBlock Origin Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
@@ -34,7 +34,7 @@ Cookies are little bits of data that get transmitted with each web request. They
 
 ### Enable Do Not Track
 
-When _Do Not Track_ is enabled, the browser will send a _DNT (Do not track)_ header with every request. Of course, it is the responsibility of the web page owner on whether or not the header will be respected. _GDPR_ and other government regulations are forcing companies to respect _DNT_. With more websites respecting _Do Not Track_, it is a valuable tool to increase user privacy.
+When _Do Not Track_ is enabled, the browser will send a _DNT (Do not track)_ header with every request. Of course, it is the responsibility of the web page owner on whether the header will be respected. _GDPR_ and other government regulations are forcing companies to respect _DNT_. With more websites respecting _Do Not Track_, it is a valuable tool to increase user privacy.
 
 ## Behavioral
 
@@ -46,11 +46,11 @@ To turn off devices when not in use seems rather impractical, but it is probably
 
 ### Use Private Browser
 
-Private browsing mode creates a new cookie store. This ensures previously set cookies are not sent. It can be an additional safeguard against tracking cookies getting sent to an untrusted site.
+Private browsing mode creates a new cookie store. This ensures previously set cookies are not sent. It can be an additional safeguard against tracking cookies getting sent to untrusted sites.
 
 #### Look for HTTPS
 
-HTTPS encrypts web traffic between you and the website. In Chrome, a webpage displays with a little lock icon if the site is using HTTPS. If the icon is not displaying, be aware that any data sent to the site will not be encrypted.
+HTTPS encrypts web traffic between you and the website. In Chrome, a web page displays with a little lock icon if the site is using HTTPS. If the icon is not displaying, be aware that any data sent to the site will not be encrypted.
 
 ## More Advanced
 
@@ -58,10 +58,10 @@ You can go beyond behavioral and browser setting/extensions with these more adva
 
 ### Use a VPN
 
-Even when a site does not use a tracking cookie, your [IP Address](https://en.wikipedia.org/wiki/IP_address) can be used as a tracking device. A Virtual Private Network (VPN) acts as a reverse proxy to the internet-- making your IP Address that of the provider. VPN traffic is also encrypted to the VPN server, making it option for use over an untrusted Wifi connection like a cafe.
+Even when a site does not use a tracking cookie, your [IP Address](https://en.wikipedia.org/wiki/IP_address) can be used as a tracking device. A Virtual Private Network (VPN) acts as a reverse proxy to the internet-- making your IP Address that of the provider. VPN traffic is also encrypted to the VPN server, making it an option for use over an untrusted Wifi connection like at a café.
 
-It is very important to chose a trustworthy VPN provider. The VPN provider has the same level of insight into your online behavior as an [ISP](https://en.wikipedia.org/wiki/Internet_service_provider). They could log all your behavior. Make sure to do a bit of research prior to choosing one.
+It is very important to choose a trustworthy VPN provider. The VPN provider has the same level of insight into your online behavior as an [ISP](https://en.wikipedia.org/wiki/Internet_service_provider). They could log all your behavior. Make sure to do a bit of research prior to choosing one.
 
 ### Setup a Pi-Hole
 
-A [Pi-Hole](https://pi-hole.net/) is effectively a network-wide ad blocker. It's like having uBlock origin automatically installed on every device connected to the network. It's more of an advanced option because it requires a bit of technical knowledge to setup, but the protection is well worth it.
+A [Pi-Hole](https://pi-hole.net/) is a bit of software that runs on a [Raspberry Pi](https://www.raspberrypi.org/) that effectively acts as a network-wide ad blocker. It's like having uBlock origin automatically installed on every device connected to the network. It's more of an advanced option because it requires a bit of technical knowledge to set up, but the extra protection is well worth it.
