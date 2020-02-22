@@ -36,6 +36,7 @@ In the end, I decided to do a hybrid approach where I would post to Medium for c
 The [http-equiv meta directive](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-http-equiv) allows declaring that a page should redirect to another page on load. I used this directive to create a [Jekyll Layout](https://jekyllrb.com/docs/step-by-step/04-layouts/) for medium posts:
 
 ```
+{% raw %}
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -45,6 +46,7 @@ The [http-equiv meta directive](https://developer.mozilla.org/en-US/docs/Web/HTM
 <body>
 </body>
 </html>
+{% endraw %}
 ```
 <small>_\_layouts/medium.html_</small>
 
