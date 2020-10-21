@@ -1,6 +1,6 @@
 title: Jon Bake
 description: On Software and Personal Development
-header_buttons:
+footer_links:
   - name: Github
     url: 'https://github.com/jonmbake'
     internal: false

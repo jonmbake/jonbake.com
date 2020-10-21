@@ -1,3 +1,12 @@
 <footer class="site-footer">
-  <p>&copy;{{ site.time | date: '%Y' }} - Jon Bake</p>
+  <ul>
+  <li>&copy;{{ site.time | date: '%Y' }} - Jon Bake</li>
+  {% for link in site.footer_links %}
+    {% if link.internal %}
+      <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+    {% else %}
+      <li><a target="_blank" rel="noopener noreferrer" href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 </footer>

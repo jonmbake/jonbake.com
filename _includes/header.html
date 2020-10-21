@@ -1,11 +1,4 @@
 <section class="page-header">
   <div class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}<sup class="small">*Home</sup></a></div>
   <div class="project-tagline">{{ site.description | default: site.github.project_tagline }}</div>
-  {% for btn in site.header_buttons %}
-    {% if btn.internal %}
-      <a href="{{ btn.url | relative_url }}" class="btn">{{ btn.name }}</a>
-    {% else %}
-      <a target="_blank" rel="noopener noreferrer" href="{{ btn.url }}" class="btn">{{ btn.name }}</a>
-    {% endif %}
-  {% endfor %}
 </section>

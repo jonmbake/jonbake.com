@@ -343,6 +343,21 @@ sup.small {
   @include small {
     font-size: 0.9rem;
   }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    li {
+      margin: .25em 0;
+      padding: 0 1em;
+      text-align: center;
+      &:not(:first-child) {
+        border-left: 1px solid #ccc;
+        background-color: #fff;
+      }
+    }
+  }
 }
 
 .site-footer-owner {
