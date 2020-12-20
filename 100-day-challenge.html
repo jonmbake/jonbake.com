@@ -1,0 +1,25 @@
+---
+layout: default
+title: 100-Day Healthy Living Challenge
+---
+<div style="display: flex; justify-content: center">
+<div style='font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; font-size: 30px'>
+  <span id="days"></span> Days <span id="hours"></span> Hours <span id="minutes"></span> Minutes <span id="seconds"></span> Seconds
+</div>
+</div>
+<script type="text/javascript">
+  const startDate = Date.parse('18 Dec 2020 00:02:00 GMT');
+  setInterval(() => {
+    let seconds = Math.floor((Date.now() - startDate)/1000);
+    let minutes = Math.floor(seconds/60);
+    let hours = Math.floor(minutes/60);
+    let days = Math.floor(hours/24);
+    hours = hours-(days*24);
+    minutes = minutes-(days*24*60)-(hours*60);
+    seconds = seconds-(days*24*60*60)-(hours*60*60)-(minutes*60);
+    document.getElementById('days').textContent = days;
+    document.getElementById('hours').textContent = hours;
+    document.getElementById('minutes').textContent = minutes;
+    document.getElementById('seconds').textContent = seconds;
+  }, 1000)
+</script>

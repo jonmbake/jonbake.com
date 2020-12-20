@@ -1,0 +1,2 @@
+Disallow: /100-day-challenge
+Disallow: /100-day-challenge.html
