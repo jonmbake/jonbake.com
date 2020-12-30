@@ -2,7 +2,11 @@
 layout: default
 title: 100-Day Healthy Living Challenge
 ---
-<div style="display: flex; justify-content: center">
+<div class="progress">
+  <div id="progress-bar" class="progress-bar bg-success" role="progressbar"></div>
+</div>
+<output id="progress-output"></output>
+<div style="display: flex; justify-content: center; margin-top: 20px">
 <div style='font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; font-size: 30px'>
   <span id="days"></span> Days <span id="hours"></span> Hours <span id="minutes"></span> Minutes <span id="seconds"></span> Seconds
 </div>
@@ -17,6 +21,8 @@ title: 100-Day Healthy Living Challenge
     hours = hours-(days*24);
     minutes = minutes-(days*24*60)-(hours*60);
     seconds = seconds-(days*24*60*60)-(hours*60*60)-(minutes*60);
+    document.getElementById('progress-bar').style = `width: ${ days > 100 ? 100 : days }%`;
+    document.getElementById('progress-output').textContent = `${ days }%`;
     document.getElementById('days').textContent = days;
     document.getElementById('hours').textContent = hours;
     document.getElementById('minutes').textContent = minutes;
