@@ -3,7 +3,7 @@ layout: default
 title: Questions to Ask For More Effective Work
 ---
 
-We work around one-third of our waking hours. But, is the time well spent? If we were more effective with our working time, could we work less? Here are some questions to ask ourselves so we can be more efficient with our working hours.
+We work around one-third of our waking hours. But, is the time well spent? If we were more effective with our working time, could we work less? The following are some questions to ask ourselves so we can be more efficient with our working hours.
 
 ## Questions to Ask Before Starting Work
 
