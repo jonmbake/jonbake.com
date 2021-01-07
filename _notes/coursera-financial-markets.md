@@ -1,6 +1,6 @@
 ---
 title: Coursera Financial Markets
-topic: Learning Notes
+topic: Courses
 ---
 
 _VaR_ - value at risk

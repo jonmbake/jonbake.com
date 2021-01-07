@@ -2,19 +2,19 @@
 layout: default
 title: Notes
 ---
-{% assign notes_groups = site.notes | group_by: 'topic' %}
+{% assign notes_groups = site.notes | sort: 'topic' | group_by: 'topic' %}
   {% for note_group in notes_groups %}
     <h2>{{ note_group.items[0].topic }}</h2>
-<ul>
-    {% for note in note_group.items %}
-      {% if note.url != '/notes/index.html' %}
-        <li>
-          <a href="{{ note.url }}">{{ note.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-</ul>
-{% endfor %}
+    <ul>
+        {% for note in note_group.items %}
+          {% if note.url != '/notes/index.html' %}
+            <li>
+              <a href="{{ note.url }}">{{ note.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+  {% endfor %}
 <div class="social-share">
   <a class="social-btn github-share" target="_blank" href="{{ site.github.repository_url | append: '/new/master/_notes' }}" title="Edit on Github"><i class="fa fa-github" aria-hidden="true"></i> Add Note</a>
 </div>

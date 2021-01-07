@@ -1,6 +1,6 @@
 ---
 title: Coursera Basic Statistics
-topic: Learning Notes
+topic: Courses
 ---
 
 [Course home page](https://www.coursera.org/learn/basic-statistics/)
@@ -15,7 +15,7 @@ _Observation_ - a variable meausurement for a particular case
 
 ### Levels of Measurement
 
-#### Categorical 
+#### Categorical
 _Nominal_ - There's some difference the values, e.g. City of Birth
 _Ordinal_ - Values can be ordered, e.g. 1st, 2nd place
 
@@ -43,5 +43,3 @@ _Frequency Table_ - One way to summarize data matrix, e.g.:
 
 _Pie Chart_ or _Bar Graph_ for categorical data
 _Dot Plot_ or _Histogram_ for quantitative
-
-
