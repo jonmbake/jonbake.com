@@ -29,47 +29,46 @@ Authentication - Who are you talking to
 
 ## Goals
 
-1. Verify Identity - Three Ways:
-    1. Something you Know (Passwords)
-            1. One-time Passwords (OTP)
+Verify Identity - Three Ways:
 
-        2. Something you Have (Token)
-            1. Strength depends on difficult of forging
+1. Something you Know (Passwords)
+    - One-time Passwords (OTP)
 
-        3. Something you Are (Biometrics)
-            1. Palm scans for most effective
-            2. Has false positives and false negatives
-                1. false positive - authentic user rejected
-                2. false negative - imposter accepted            
-            3. Key management harder i.e. you can’t issue a new finger
+2. Something you Have (Token)
+    - Strength depends on difficult of forging
+
+3. Something you Are (Biometrics)
+    - Palm scans for most effective
+    - Has false positives and false negatives
+        - false positive - authentic user rejected
+        - false negative - imposter accepted            
+    - Key management harder i.e. you can’t issue a new finger
 
 Three types:
 
 1. Server authentication - verifying cert
-
 2. Client authentication - logging in
-
 3. Mutual - both
 
 ## Authorization - Has permission to conduct action
 
-- Access Control List - e.g. Unix permission model
+Access Control List - e.g. Unix permission model
 
-- Access Control Model:
+Access Control Model:
 
 1. Mandatory - computer decides who can do what
 2. Discretionary (unix) - users authorized to determine access
 3. Non-Discretionary- determined by role
 
-- [Bell-LaPadula Model](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
+### [Bell-LaPadula Model](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
 
 * Classifications - Top Secret, Secret, Classified, Unclassified
 * 3 Rules/Properties
     * Simple Property (no read up) - can’t access files with higher classification
-    * * Property (confinement) (no write down) - prevent information leakage - only people with at or greater classifications can see documents you create
+    * Property (confinement) (no write down) - prevent information leakage - only people with at or greater classifications can see documents you create
     * Tranquility property - object can’t change classification level unless there are no other readers or writers
 
-* Side Note: [Biba Integrity Model](https://en.wikipedia.org/wiki/Biba_model)
+**2 Side Note: [Biba Integrity Model](https://en.wikipedia.org/wiki/Biba_model)
 
 ## Confidentiality - keep contents secret
 
@@ -82,41 +81,29 @@ Three types:
 ## Data Integrity
 
 - Man in the Middle Attack
-
 - Integrity Checks - Using Hashing Functions/Checksum
-
 - Message Authentication Code (MACs) like Checksum w/ keys (SSL uses this)
-
 - e.g. TCP/IP
 
 ## Accountability
 
 - Who performed action
-
 - Logging/Audit Trails
-
 - Make sure to use secure logging w/ time stamping
-
 - Data integrity in logs, can’t be able to change logs
-
-- ??? WORM device - write once, read many
+- [WORM device](https://en.wikipedia.org/wiki/Write_once_read_many) - write once, read many
 
 ## Availability
 
 - Uptime
-
 - Have redundancy
-
 - [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
 ## Non-Repudiation
 
 - Undeniability of transaction
-
 - Usually involves 3rd party (not bitcoin)
-
 - Generate evidence e.g. receipts (need to be digitally signed)
-
 - Side Note: Interesting to create software to handle this.
 
 Acronyms:
