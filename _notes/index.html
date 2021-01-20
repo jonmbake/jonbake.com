@@ -6,7 +6,8 @@ title: Notes
   {% for note_group in notes_groups %}
     <h2>{{ note_group.items[0].topic }}</h2>
     <ul>
-        {% for note in note_group.items %}
+        {% assign note_group_items = note_group.items | sort: 'title' %}
+        {% for note in note_group_items %}
           {% if note.url != '/notes/index.html' %}
             <li>
               <a href="{{ note.url }}">{{ note.title }}</a>
