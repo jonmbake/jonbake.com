@@ -13,6 +13,9 @@ footer_links:
     url: 'contact.html'
     internal: true
 exclude:
+  - package.json
+  - package-lock.json
+  - node_modules
   - Rakefile
 plugins:
   - jekyll-feed
@@ -27,8 +30,6 @@ jekyll_compose:
       - Get rid of extra words
       - Use object before action sentence structure
     tags:
-sass:
-    style: compressed
 defaults:
   - scope:
       path: "blog"      # empty string for all files
