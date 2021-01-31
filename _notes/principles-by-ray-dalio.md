@@ -3,7 +3,7 @@ title: Principles by Ray Dalio
 topic: Books
 ---
 
-These are notes for the book, [Principles by Ray Dalio](https://amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021).
+Notes for the book, [Principles by Ray Dalio](https://amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021).
 
 ## Principled
 

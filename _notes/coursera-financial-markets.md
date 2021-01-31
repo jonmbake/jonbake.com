@@ -3,6 +3,10 @@ title: Coursera Financial Markets
 topic: Courses
 ---
 
+Notes from [Coursera Financial Markets Course](https://www.coursera.org/learn/financial-markets-global).
+
+<hr/>
+
 _VaR_ - value at risk
 
 - concept created after stock market crash after 1987

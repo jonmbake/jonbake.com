@@ -3,6 +3,8 @@ title: Stanford Foundations of Information Security XACS101 1.3 - Secure Design 
 topic: Courses
 ---
 
+Notes from section _1.3 - Secure Design Principles_ of [Stanford Foundations of Information Security XACS101 Course](https://online.stanford.edu/courses/xacs101-foundations-information-security).
+
 ## Principle of Least Privilege
 
 Just enough authority to get job done.

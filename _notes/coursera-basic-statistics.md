@@ -3,7 +3,7 @@ title: Coursera Basic Statistics
 topic: Courses
 ---
 
-[Course home page](https://www.coursera.org/learn/basic-statistics/)
+Notes from [Coursera Basic Statistics](https://www.coursera.org/learn/basic-statistics/).
 
 ## Data and visualization
 

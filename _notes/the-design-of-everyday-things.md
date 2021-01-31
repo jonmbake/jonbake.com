@@ -3,7 +3,7 @@ title: The Design of Everyday Things
 topic: Books
 ---
 
-These are notes for the book, [The Design of Everyday Things by Don Norman](https://amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654). These are rough notes, and may contain spelling and grammatical errors.
+Notes for the book, [The Design of Everyday Things by Don Norman](https://amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654). These are rough notes, and may contain spelling and grammatical errors.
 
 ## Discoverability
 

@@ -3,7 +3,11 @@ title: Stanford Foundations of Information Security XACS101 1.1 -  Security Goal
 topic: Courses
 ---
 
-Security is Holistic - hackers start w/ simplest thing possible
+Notes from section _1.1 - Security Goals_ of [Stanford Foundations of Information Security XACS101 Course](https://online.stanford.edu/courses/xacs101-foundations-information-security).
+
+## Security is Holistic
+
+Hackers start with the simplest thing possible.
 
 1. Physical
     1. Limit access to physical spaces includes offsite Data Centers

@@ -3,6 +3,8 @@ title: Stanford Foundations of Information Security XACS101 1.2 - Secure System 
 topic: Courses
 ---
 
+Notes from section _1.2 - Secure System Design_ of [Stanford Foundations of Information Security XACS101 Course](https://online.stanford.edu/courses/xacs101-foundations-information-security).
+
 ## Understanding Threats
 
 * Defacement - Online Vandalism
