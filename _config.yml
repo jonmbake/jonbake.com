@@ -10,7 +10,7 @@ footer_links:
     url: personal_constitution
     internal: true
   - name: Contact
-    url: 'contact.html'
+    url: 'mailto:jonmbake@gmail.com'
     internal: true
 exclude:
   - package.json
