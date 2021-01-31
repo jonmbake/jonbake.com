@@ -16,3 +16,45 @@ An important tool to empower your blog to grow is to make it easier for visitors
 {% endraw %}
 ```
 <small style="font-style: italic"><a target="_blank" rel="noopener noreferrer" href="{{ site.source_url }}/blob/master/_includes/social-share.html">_includes/social-share.html</a></small>
+
+The following SCSS is used to style the social share buttons:
+
+```
+{% raw %}
+// Font Awesome 4.7.0 is used for the button icons.
+// Have to run `npm install font-awesome`
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+
+.social-share {
+  font-size: .9rem;
+  a {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 0 6px 3px;
+    text-align: center;
+    text-decoration: none;
+
+    &.fb-share {
+      background: #3B5997
+    }
+
+    &.twitter-share {
+      background: #00aced;
+    }
+
+    &.email-share {
+      background: #2c4762;
+    }
+
+    &.github-share {
+      background: #4078c0;
+    }
+  }
+}
+{% endraw %}
+```
+<small style="font-style: italic">_sass/social-buttons.scss</small>
