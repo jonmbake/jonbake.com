@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <section class="main-content">
+      <div class="breadcrumb"><a href="/checklists">Checklists</a> <i class="fa fa-angle-right"></i> {{ page.topic }} <i class="fa fa-angle-right"></i> {{ page.title }}</div>
+      <h1 class="posts-header">{{ page.title }} Checklist</h1>
+      {{ content }}
+      <div class="social-share">
+        <a class="social-btn github-share" target="_blank" href="{{ site.github.repository_url | append: '/edit/master/' }}{{ page.path }}" title="Edit on Github"><i class="fa fa-github" aria-hidden="true"></i> Edit Checklist</a>
+      </div>
+      {% include footer.html %}
+    </section>
+  </body>
+</html>

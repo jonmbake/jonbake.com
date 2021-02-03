@@ -1,0 +1,20 @@
+---
+layout: default
+title: Checklists
+---
+{% assign checklist_groups = site.checklists | group_by: 'topic' %}
+  {% for checklist_group in checklist_groups %}
+    <h2>{{ checklist_group.items[0].topic }}</h2>
+    <ul>
+        {% for checklist in checklist_group.items %}
+          {% if checklist.url != '/checklists/index.html' %}
+            <li>
+              <a href="{{ checklist.url }}">{{ checklist.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+  {% endfor %}
+<div class="social-share">
+  <a class="social-btn github-share" target="_blank" href="{{ site.github.repository_url | append: '/new/master/_checklists' }}" title="Edit on Github"><i class="fa fa-github" aria-hidden="true"></i> Add Checklist</a>
+</div>

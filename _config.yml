@@ -32,15 +32,22 @@ jekyll_compose:
     tags:
 defaults:
   - scope:
-      path: "blog"      # empty string for all files
+      path: "blog"
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
   - scope:
       path: ""      # empty string for all files
-      type: notes   # limit to posts
+      type: checklists
+    values:
+      layout: checklist
+  - scope:
+      path: ""      # empty string for all files
+      type: notes
     values:
       layout: note
 collections:
+  checklists:
+    output: true
   notes:
     output: true
