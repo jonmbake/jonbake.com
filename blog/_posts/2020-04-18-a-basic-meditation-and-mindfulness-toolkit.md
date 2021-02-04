@@ -1,6 +1,8 @@
 ---
 layout: default
 title: A Basic Meditation and Mindfulness Toolkit
+tags:
+  - front-page
 ---
 
 I was an anxious person in my youth. Now, in adulthood, I have a relatively calm mind. It's hard to tell exactly what led to this change. My hunch is that my daily mediation practice-- established a few years back-- was a big reason for the change.

@@ -5,4 +5,5 @@ title:  "The Why and How of MAC HTTP Cookies"
 tags:
   - software_dev
   - security
+  - front-page
 ---

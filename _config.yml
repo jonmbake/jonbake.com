@@ -2,6 +2,13 @@ title: Jon Bake
 description: On Software and Personal Development
 url: 'https://jonbake.com'
 source_url: https://github.com/jonmbake/jonbake.com
+header_buttons:
+  - name: Posts
+    url: posts
+  - name: Notes
+    url: notes
+  - name: Lists
+    url: checklists
 footer_links:
   - name: Github
     url: 'https://github.com/jonmbake'

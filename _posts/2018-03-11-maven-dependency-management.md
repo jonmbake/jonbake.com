@@ -4,4 +4,5 @@ medium_url: https://medium.com/@jonmbake/quick-overview-of-maven-dependency-mana
 title:  "Quick Overview of Maven Dependency Management"
 tags:
   - java
+  - front-page
 ---

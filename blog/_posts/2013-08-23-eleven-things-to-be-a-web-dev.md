@@ -3,6 +3,7 @@ layout: default
 title: "Eleven Things to Learn to Become a Successful Web Developer"
 tags:
   - software_dev
+  - front-page
 ---
 
 I remember when I started out on my path to become a software developer. It started out with excitement and gradually developed into a sense of being overwhelmed with all the stuff to be learned. It is easy to become overwhelmed when starting out because there are so many things to learn in order to be a successful software developer. The plethora of things to learn can be scary, but it can (and should) also be exciting.

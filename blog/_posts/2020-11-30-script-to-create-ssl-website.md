@@ -1,6 +1,8 @@
 ---
 layout: default
 title: A Script to Create a HTTPS Website (For Free)
+tags:
+  - front-page
 ---
 
 My go-to setup for static websites (like jonbake.com) is [GitHub Pages](https://pages.github.com/) and [Cloudflare](https://www.cloudflare.com/). _GitHub Pages_ offers a way to host a static website directly from a git repository. _Cloudflare_ offers a [free CDN service](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) (making the website extremely fast) with free SSL/HTTPS certificates on custom domains.

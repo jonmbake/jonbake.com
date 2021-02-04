@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Understanding Proxies
+tags:
+  - front-page
 ---
 
 Proxies are used throughout the internet. This post will describe why they are used, along with the two main flavors of proxies.

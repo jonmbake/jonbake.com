@@ -4,4 +4,5 @@ medium_url: https://medium.com/@jonmbake/can-checklists-save-software-developmen
 title:  "Can Checklists Save Software Development?"
 tags:
   - software_dev
+  - front-page
 ---

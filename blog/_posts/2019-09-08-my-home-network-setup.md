@@ -1,6 +1,8 @@
 ---
 layout: default
 title: My Home Network Setup
+tags:
+  - front-page
 ---
 
 ![Home network setup](/assets/images/blog/2019/09/08/home-network.jpeg)

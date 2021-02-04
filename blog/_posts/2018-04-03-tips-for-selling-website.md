@@ -3,6 +3,7 @@ layout: default
 title: "6 Tips for Selling a Website"
 tags:
   - business
+  - front-page
 ---
 
 One thing I learned over the years is that combining interests can have a synergistic effect. For example, I have a love of coding and diet/nutrition, and about five years ago I combined the two to create a website to help people calculate their macro-nutrient needs. Over the years, it slowly grew in popularity from a few people visiting the site to a couple hundred, to a few thousand, to sometimes over one-hundred thousand visitors a month. With the popularity, came offers to buy the site. This past month I decided to sell it and here I share some tips I discovered during the process.

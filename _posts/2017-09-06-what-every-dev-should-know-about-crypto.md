@@ -4,4 +4,5 @@ medium_url: https://medium.com/@jonmbake/the-absolute-minimum-every-web-develope
 title:  "The Absolute Minimum Every Web Developer Should Know About Cryptography"
 tags:
   - security
+  - front-page
 ---

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Tools for Privacy and Security Online
+tags:
+  - front-page
 ---
 
 Online adverting and in turn bulk personal data collection is a multi-billion dollar industry. Sometimes it feels as if there is little an individual can do to protect privacy online. That doesn't mean we shouldn't try. There are simple steps we can all take to increase privacy and security online. This post outlines a few tools one can employ to be more secure online.

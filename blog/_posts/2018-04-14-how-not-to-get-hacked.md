@@ -4,6 +4,7 @@ title: "How Not to Get Your Blog Hacked"
 tags:
   - security
   - funny
+  - front-page
 ---
 
 This blog was once overtaken by a hacker. He or she somehow gained access to my [Wordpress](https://wordpress.org) site and decided to override all the posts with Asian pornography. Not cool. Luckily, a reader alerted me to the hack fairly quickly. Still, it was one of the most embarrassing experiences professionally as a software developer. Blogs of the non-technical are supposed to get hacked, not a somewhat competent web developer.
