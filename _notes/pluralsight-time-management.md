@@ -32,7 +32,7 @@ Have learning book in bathroom !action
 3. Set an exact date.
 4. Have a clear plan.
 5. Put it in writing
-6. Read i aloud twice a day.
+6. Read it aloud twice a day.
 
 End of day GRP report (Goals Results Problems) !action
 
