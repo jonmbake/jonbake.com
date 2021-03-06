@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run cp:fonts && npm run build:scss",
     "cp:fonts": "cp -r node_modules/npm-font-open-sans/fonts assets/fonts/open-sans && cp node_modules/font-awesome/fonts/* assets/fonts",
-    "build:scss": "node-sass --output-style compressed _sass/style.scss > assets/css/style.css"
+    "build:scss": "node-sass --output-style compressed _sass/main.scss > assets/css/main.css"
   },
   "repository": {
     "type": "git",
