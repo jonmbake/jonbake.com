@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jemoji
 jekyll_compose:
   draft_default_front_matter:
     remember:

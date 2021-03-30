@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Fixture Data in Cucumber JVM
-tags:
-  - front-page
 ---
 
 [Cucumber](https://cucumber.io/) is a commonly used [Behavior-Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development) testing framework. The Java implementation, [Cucumber JVM](https://github.com/cucumber/cucumber-jvm), is a great way to take a BDD testing approach with your Java project. In this post, we'll talk about how to create and manage fixture data in _Cucumber JVM_.
