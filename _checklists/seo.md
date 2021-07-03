@@ -1,7 +1,7 @@
 ---
 title: Basic SEO
 description: A checklist to ensure a webpage has the basics necessary for search engine optimization (SEO).
-topic: Web Development
+topic: Web/Software Development
 ---
 
 - [ ]  Ensure title, description, Canonical URL and other relevant metadata is present. Use [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) if using Jekyll.
