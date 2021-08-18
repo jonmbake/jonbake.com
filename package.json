@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run cp:fonts && npm run build:scss",
     "cp:fonts": "cp -r node_modules/npm-font-open-sans/fonts assets/fonts/open-sans && cp node_modules/font-awesome/fonts/* assets/fonts",
-    "build:scss": "node-sass --output-style compressed _sass/main.scss > assets/css/main.css"
+    "build:scss": "sass --style=compressed --no-source-map _sass/main.scss assets/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/jonmbake/jonbake.com#readme",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "node-sass": "^5.0.0",
-    "npm-font-open-sans": "^1.1.0"
+    "npm-font-open-sans": "^1.1.0",
+    "sass": "^1.38.0"
   }
 }
