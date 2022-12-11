@@ -17,7 +17,7 @@ topic: Security & Privacy
   - [ ] **[HNAP](http://routersecurity.org/hnap.php)**
   - [ ] **[DDNS](https://en.wikipedia.org/wiki/Dynamic_DNS) (if not needed)**
 - [ ] Setup secure WiFi configuration
-    - [ ] **Change the Default Password!** Make it a [strong password](http://passwordsgenerator.net/). Most routers allow **unlimited** password tries. `A weak password + a determined bad actor = guaranteed access to your router`. Update the strong password to another strong password every 3 months.
+    - [ ] **Change the Default Password!** Make it a [strong password](https://www.lastpass.com/features/password-generator). Most routers allow **unlimited** password tries. `A weak password + a determined bad actor = guaranteed access to your router`. Update the strong password to another strong password every 3 months.
     - [ ] **Use the Most Secure Password Encryption Available** According to the following order from most secure to least:
       - *WPA2*
       - *WPA/WPA2*
