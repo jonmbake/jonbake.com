@@ -10,3 +10,4 @@ topic: Personal
 - [ ] Review and rebalance 401k, IRA and other investments
 - [ ] Replace furnance filter
 - [ ] Replace toothbrush head
+- [ ] Quarterly delete - clean out closets, drawers and other storage; give away anything not used within the past quarter
